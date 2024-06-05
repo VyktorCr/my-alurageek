@@ -1,0 +1,76 @@
+{
+    "productos":[
+        {
+            "id":"p1",
+            "image":"assets/1.png",
+            "nom":"Fresas",          
+            "precio":"$2.00",
+            "trash": "assets/trash.png"
+
+        },
+        {
+            "id":"p2",
+            "image":"assets/2.png",
+            "nom":"Cebollas",          
+            "precio":"$4.00",
+            "trash": "assets/trash.png"
+
+        },
+        {
+            "id":"p3",
+            "image":"assets/3.png",
+            "nom":"Jitomates",          
+            "precio":"$4.50",
+            "trash": "assets/trash.png"
+
+        },
+        {
+            "id":"p4",
+            "image":"assets/4.png",
+            "nom":"Berenjenas",          
+            "precio":"$5.00",
+            "trash": "assets/trash.png"
+
+        },
+        {
+            "id":"p5",
+            "image":"assets/5.png",
+            "nom":"Brocoli",          
+            "precio":"$5.00",
+            "trash": "assets/trash.png"
+
+        },
+        {
+            "id":"p6",
+            "image":"assets/6.png",
+            "nom":"Papas",          
+            "precio":"$4.00",
+            "trash": "assets/trash.png"
+
+        },
+        {
+            "id":"p7",
+            "image":"assets/7.png",
+            "nom":"Berries",          
+            "precio":"$4.00",
+            "trash": "assets/trash.png"
+
+        },
+        {
+            "id":"p8",
+            "image":"assets/8.png",
+            "nom":"Piña",          
+            "precio":"$4.00",
+            "trash": "assets/trash.png"
+
+        }
+
+    ]
+    
+
+
+    
+
+
+
+}
