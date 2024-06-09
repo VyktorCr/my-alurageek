@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./forma.css">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./pag3.css">
+    <link
     <link
     rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -22,19 +25,20 @@
           </div>
         </div>
 
-            <div class="container-form">
+            <div class="container-form" data-formulario>
               <form action="/submit" method="post">
-                <input type="text" name="input1" placeholder="Entrada 1">
-                <input type="text" name="input2" placeholder="Entrada 2">
-                <input type="text" name="input3" placeholder="Entrada 3">
+                <input type="text" name="input1" placeholder="Producto id" data-id>
+                <input type="text" name="input2" placeholder="Imagen" data-image>  
+                <input type="text" name="input3" placeholder="Nombre" data-nom> 
+                <input type="text" name="input4" placeholder="Precio" data-precio>
 
-                <div class="cont-btns"> <button class="btn"id="btn1" type="submit">Botón 1</button>
+                <div class="cont-btns"> <button class="btn"id="btn1" type="submit">Crear</button>
                   <button class="btn"id="btn2"  type="reset">Botón 2</button></div>
               </form>
             </div>
   </div>
 
 
-      <script src="../paginas/PagFormulario.html" type="module"></script>
+      <script src="../js/crearProducto.js" type="module"></script>
 </body>
 </html>

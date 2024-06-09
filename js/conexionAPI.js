@@ -8,13 +8,14 @@ async function listaProductos(){
 
 }
 
-async function crearProducto(id,image,precio,trash){
+async function enviarProducto(id,image,nom,precio,trash){
     const conexion = await fetch ("http://localhost:3001/productos",{
         method:"POST",
         headers:{"Content-type":"application/json"},
         body:JSON.stringify({
             id:id,
             image:image,
+            nom:nom,
             precio:precio,
             trash:trash
         })
@@ -25,6 +26,6 @@ async function crearProducto(id,image,precio,trash){
 }
 
 export const conexionAPI={
-    listaProductos,crearProducto
+    listaProductos,enviarProducto
 }
 //listaProductos()

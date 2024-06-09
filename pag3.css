@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+    body {
+      font-family: "Raleway", sans-serif;
+      margin: 0;
+      line-height: normal;
+    }
+    html {
+      scroll-behavior: smooth;
+      background-image: url(./assets/balloon.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-size: 62%;
+      overflow-x: hidden;
+
+    }
+
+    :root {
+      /* fonts */
+      --font-Raleway: "Raleway";
+      --font-Anom: "Anonymous+Pro";
+    
+      /* font sizes */
+      --font-size-base: 16px;
+      --font-size-5xl: 30px;
+      --font-size-xl: 20px;
+      --font-size-mini: 15px;
+    
+      /* Colors */
+      --preto-branco: #fff;
+      --color-mediumblue-100: #5d04d9;
+      --color-hdr-ftr: #149169;
+      --color-midnightblue: #03318c;
+      --color-black: #000;
+      --fondo-3:#74bfa77e;
+    }
+    
